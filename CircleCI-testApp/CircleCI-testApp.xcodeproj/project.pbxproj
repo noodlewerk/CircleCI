@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		838C75901C6897CE00522B75 /* UselessCalculationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C758F1C6897CE00522B75 /* UselessCalculationTests.swift */; };
 		83D718EF1C64EE9C00E14EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D718EE1C64EE9C00E14EF4 /* AppDelegate.swift */; };
 		83D718F11C64EE9C00E14EF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D718F01C64EE9C00E14EF4 /* ViewController.swift */; };
 		83D718F41C64EE9C00E14EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D718F21C64EE9C00E14EF4 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		838C758F1C6897CE00522B75 /* UselessCalculationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UselessCalculationTests.swift; sourceTree = "<group>"; };
 		83D718EB1C64EE9C00E14EF4 /* CircleCI-testApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CircleCI-testApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D718EE1C64EE9C00E14EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D718F01C64EE9C00E14EF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		83D7190A1C64EE9C00E14EF4 /* CircleCI-testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CircleCI-testAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D7190E1C64EE9C00E14EF4 /* CircleCI_testAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCI_testAppUITests.swift; sourceTree = "<group>"; };
 		83D719101C64EE9C00E14EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D7191C1C6503D300E14EF4 /* UselessCalculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UselessCalculation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 				83D718F51C64EE9C00E14EF4 /* Assets.xcassets */,
 				83D718F71C64EE9C00E14EF4 /* LaunchScreen.storyboard */,
 				83D718FA1C64EE9C00E14EF4 /* Info.plist */,
+				83D7191C1C6503D300E14EF4 /* UselessCalculation.swift */,
 			);
 			path = "CircleCI-testApp";
 			sourceTree = "<group>";
@@ -113,6 +117,7 @@
 			children = (
 				83D719031C64EE9C00E14EF4 /* CircleCI_testAppTests.swift */,
 				83D719051C64EE9C00E14EF4 /* Info.plist */,
+				838C758F1C6897CE00522B75 /* UselessCalculationTests.swift */,
 			);
 			path = "CircleCI-testAppTests";
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			files = (
 				83D718F11C64EE9C00E14EF4 /* ViewController.swift in Sources */,
 				83D718EF1C64EE9C00E14EF4 /* AppDelegate.swift in Sources */,
+				83D7191D1C6503D300E14EF4 /* UselessCalculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838C75901C6897CE00522B75 /* UselessCalculationTests.swift in Sources */,
 				83D719041C64EE9C00E14EF4 /* CircleCI_testAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +490,7 @@
 				83D719151C64EE9C00E14EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D719161C64EE9C00E14EF4 /* Build configuration list for PBXNativeTarget "CircleCI-testAppTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +499,7 @@
 				83D719181C64EE9C00E14EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D719191C64EE9C00E14EF4 /* Build configuration list for PBXNativeTarget "CircleCI-testAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +508,7 @@
 				83D7191B1C64EE9C00E14EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
