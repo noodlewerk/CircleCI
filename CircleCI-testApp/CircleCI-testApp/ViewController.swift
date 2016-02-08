@@ -14,12 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var secondNumberLabel: UILabel!
     @IBOutlet weak var answerLabel: UILabel!
     
-    @IBAction func answerButton(sender: AnyObject) {
-        answerLabel.text = String( Int(firstNumberLabel.text!)! + Int(secondNumberLabel.text!)! )
-    }
+    var numbers = UselessCalculation()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let first = firstNumberLabel.text, let second = secondNumberLabel.text {
+            numbers.firstNumber = Int(first)
+            numbers.secondNumber = Int(second)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -28,6 +30,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func answerButton(sender: AnyObject) {
+        answerLabel.text = String(numbers.sum())
+    }
 
 }
 

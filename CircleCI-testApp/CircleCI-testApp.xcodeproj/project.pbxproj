@@ -14,6 +14,7 @@
 		83D718F91C64EE9C00E14EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D718F71C64EE9C00E14EF4 /* LaunchScreen.storyboard */; };
 		83D719041C64EE9C00E14EF4 /* CircleCI_testAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D719031C64EE9C00E14EF4 /* CircleCI_testAppTests.swift */; };
 		83D7190F1C64EE9C00E14EF4 /* CircleCI_testAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7190E1C64EE9C00E14EF4 /* CircleCI_testAppUITests.swift */; };
+		83D7191D1C6503D300E14EF4 /* UselessCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7191C1C6503D300E14EF4 /* UselessCalculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
