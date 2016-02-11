@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838C75901C6897CE00522B75 /* UselessCalculationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C758F1C6897CE00522B75 /* UselessCalculationTests.swift */; };
+		83D718EF1C64EE9C00E14EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D718EE1C64EE9C00E14EF4 /* AppDelegate.swift */; };
+		83D718F11C64EE9C00E14EF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D718F01C64EE9C00E14EF4 /* ViewController.swift */; };
+		83D718F41C64EE9C00E14EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D718F21C64EE9C00E14EF4 /* Main.storyboard */; };
+		83D718F61C64EE9C00E14EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D718F51C64EE9C00E14EF4 /* Assets.xcassets */; };
+		83D718F91C64EE9C00E14EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D718F71C64EE9C00E14EF4 /* LaunchScreen.storyboard */; };
+		83D719041C64EE9C00E14EF4 /* CircleCI_testAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D719031C64EE9C00E14EF4 /* CircleCI_testAppTests.swift */; };
+		83D7190F1C64EE9C00E14EF4 /* CircleCI_testAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7190E1C64EE9C00E14EF4 /* CircleCI_testAppUITests.swift */; };
+		83D7191D1C6503D300E14EF4 /* UselessCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7191C1C6503D300E14EF4 /* UselessCalculation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D719001C64EE9C00E14EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D718E31C64EE9C00E14EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D718EA1C64EE9C00E14EF4;
+			remoteInfo = "CircleCI-testApp";
+		};
+		83D7190B1C64EE9C00E14EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D718E31C64EE9C00E14EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D718EA1C64EE9C00E14EF4;
+			remoteInfo = "CircleCI-testApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		838C758F1C6897CE00522B75 /* UselessCalculationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UselessCalculationTests.swift; sourceTree = "<group>"; };
+		83D718EB1C64EE9C00E14EF4 /* CircleCI-testApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CircleCI-testApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D718EE1C64EE9C00E14EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83D718F01C64EE9C00E14EF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83D718F31C64EE9C00E14EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83D718F51C64EE9C00E14EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83D718F81C64EE9C00E14EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83D718FA1C64EE9C00E14EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D718FF1C64EE9C00E14EF4 /* CircleCI-testAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CircleCI-testAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D719031C64EE9C00E14EF4 /* CircleCI_testAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCI_testAppTests.swift; sourceTree = "<group>"; };
+		83D719051C64EE9C00E14EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D7190A1C64EE9C00E14EF4 /* CircleCI-testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CircleCI-testAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D7190E1C64EE9C00E14EF4 /* CircleCI_testAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCI_testAppUITests.swift; sourceTree = "<group>"; };
+		83D719101C64EE9C00E14EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D7191C1C6503D300E14EF4 /* UselessCalculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UselessCalculation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D718E81C64EE9C00E14EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D718FC1C64EE9C00E14EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D719071C64EE9C00E14EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D718E21C64EE9C00E14EF4 = {
+			isa = PBXGroup;
+			children = (
+				83D718ED1C64EE9C00E14EF4 /* CircleCI-testApp */,
+				83D719021C64EE9C00E14EF4 /* CircleCI-testAppTests */,
+				83D7190D1C64EE9C00E14EF4 /* CircleCI-testAppUITests */,
+				83D718EC1C64EE9C00E14EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D718EC1C64EE9C00E14EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D718EB1C64EE9C00E14EF4 /* CircleCI-testApp.app */,
+				83D718FF1C64EE9C00E14EF4 /* CircleCI-testAppTests.xctest */,
+				83D7190A1C64EE9C00E14EF4 /* CircleCI-testAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D718ED1C64EE9C00E14EF4 /* CircleCI-testApp */ = {
+			isa = PBXGroup;
+			children = (
+				83D718EE1C64EE9C00E14EF4 /* AppDelegate.swift */,
+				83D718F01C64EE9C00E14EF4 /* ViewController.swift */,
+				83D718F21C64EE9C00E14EF4 /* Main.storyboard */,
+				83D718F51C64EE9C00E14EF4 /* Assets.xcassets */,
+				83D718F71C64EE9C00E14EF4 /* LaunchScreen.storyboard */,
+				83D718FA1C64EE9C00E14EF4 /* Info.plist */,
+				83D7191C1C6503D300E14EF4 /* UselessCalculation.swift */,
+			);
+			path = "CircleCI-testApp";
+			sourceTree = "<group>";
+		};
+		83D719021C64EE9C00E14EF4 /* CircleCI-testAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				83D719031C64EE9C00E14EF4 /* CircleCI_testAppTests.swift */,
+				83D719051C64EE9C00E14EF4 /* Info.plist */,
+				838C758F1C6897CE00522B75 /* UselessCalculationTests.swift */,
+			);
+			path = "CircleCI-testAppTests";
+			sourceTree = "<group>";
+		};
+		83D7190D1C64EE9C00E14EF4 /* CircleCI-testAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83D7190E1C64EE9C00E14EF4 /* CircleCI_testAppUITests.swift */,
+				83D719101C64EE9C00E14EF4 /* Info.plist */,
+			);
+			path = "CircleCI-testAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D718EA1C64EE9C00E14EF4 /* CircleCI-testApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D719131C64EE9C00E14EF4 /* Build configuration list for PBXNativeTarget "CircleCI-testApp" */;
+			buildPhases = (
+				83D718E71C64EE9C00E14EF4 /* Sources */,
+				83D718E81C64EE9C00E14EF4 /* Frameworks */,
+				83D718E91C64EE9C00E14EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CircleCI-testApp";
+			productName = "CircleCI-testApp";
+			productReference = 83D718EB1C64EE9C00E14EF4 /* CircleCI-testApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D718FE1C64EE9C00E14EF4 /* CircleCI-testAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D719161C64EE9C00E14EF4 /* Build configuration list for PBXNativeTarget "CircleCI-testAppTests" */;
+			buildPhases = (
+				83D718FB1C64EE9C00E14EF4 /* Sources */,
+				83D718FC1C64EE9C00E14EF4 /* Frameworks */,
+				83D718FD1C64EE9C00E14EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D719011C64EE9C00E14EF4 /* PBXTargetDependency */,
+			);
+			name = "CircleCI-testAppTests";
+			productName = "CircleCI-testAppTests";
+			productReference = 83D718FF1C64EE9C00E14EF4 /* CircleCI-testAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83D719091C64EE9C00E14EF4 /* CircleCI-testAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D719191C64EE9C00E14EF4 /* Build configuration list for PBXNativeTarget "CircleCI-testAppUITests" */;
+			buildPhases = (
+				83D719061C64EE9C00E14EF4 /* Sources */,
+				83D719071C64EE9C00E14EF4 /* Frameworks */,
+				83D719081C64EE9C00E14EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D7190C1C64EE9C00E14EF4 /* PBXTargetDependency */,
+			);
+			name = "CircleCI-testAppUITests";
+			productName = "CircleCI-testAppUITests";
+			productReference = 83D7190A1C64EE9C00E14EF4 /* CircleCI-testAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D718E31C64EE9C00E14EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = noodlewerk;
+				TargetAttributes = {
+					83D718EA1C64EE9C00E14EF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					83D718FE1C64EE9C00E14EF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83D718EA1C64EE9C00E14EF4;
+					};
+					83D719091C64EE9C00E14EF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83D718EA1C64EE9C00E14EF4;
+					};
+				};
+			};
+			buildConfigurationList = 83D718E61C64EE9C00E14EF4 /* Build configuration list for PBXProject "CircleCI-testApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D718E21C64EE9C00E14EF4;
+			productRefGroup = 83D718EC1C64EE9C00E14EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D718EA1C64EE9C00E14EF4 /* CircleCI-testApp */,
+				83D718FE1C64EE9C00E14EF4 /* CircleCI-testAppTests */,
+				83D719091C64EE9C00E14EF4 /* CircleCI-testAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D718E91C64EE9C00E14EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D718F91C64EE9C00E14EF4 /* LaunchScreen.storyboard in Resources */,
+				83D718F61C64EE9C00E14EF4 /* Assets.xcassets in Resources */,
+				83D718F41C64EE9C00E14EF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D718FD1C64EE9C00E14EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D719081C64EE9C00E14EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D718E71C64EE9C00E14EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D718F11C64EE9C00E14EF4 /* ViewController.swift in Sources */,
+				83D718EF1C64EE9C00E14EF4 /* AppDelegate.swift in Sources */,
+				83D7191D1C6503D300E14EF4 /* UselessCalculation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D718FB1C64EE9C00E14EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838C75901C6897CE00522B75 /* UselessCalculationTests.swift in Sources */,
+				83D719041C64EE9C00E14EF4 /* CircleCI_testAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D719061C64EE9C00E14EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D7190F1C64EE9C00E14EF4 /* CircleCI_testAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D719011C64EE9C00E14EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D718EA1C64EE9C00E14EF4 /* CircleCI-testApp */;
+			targetProxy = 83D719001C64EE9C00E14EF4 /* PBXContainerItemProxy */;
+		};
+		83D7190C1C64EE9C00E14EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D718EA1C64EE9C00E14EF4 /* CircleCI-testApp */;
+			targetProxy = 83D7190B1C64EE9C00E14EF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83D718F21C64EE9C00E14EF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D718F31C64EE9C00E14EF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83D718F71C64EE9C00E14EF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D718F81C64EE9C00E14EF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D719111C64EE9C00E14EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83D719121C64EE9C00E14EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83D719141C64EE9C00E14EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CircleCI-testApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlewerk.CircleCI-testApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83D719151C64EE9C00E14EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CircleCI-testApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlewerk.CircleCI-testApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83D719171C64EE9C00E14EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CircleCI-testAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlewerk.CircleCI-testAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleCI-testApp.app/CircleCI-testApp";
+			};
+			name = Debug;
+		};
+		83D719181C64EE9C00E14EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CircleCI-testAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlewerk.CircleCI-testAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleCI-testApp.app/CircleCI-testApp";
+			};
+			name = Release;
+		};
+		83D7191A1C64EE9C00E14EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CircleCI-testAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlewerk.CircleCI-testAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CircleCI-testApp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83D7191B1C64EE9C00E14EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CircleCI-testAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlewerk.CircleCI-testAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CircleCI-testApp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D718E61C64EE9C00E14EF4 /* Build configuration list for PBXProject "CircleCI-testApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D719111C64EE9C00E14EF4 /* Debug */,
+				83D719121C64EE9C00E14EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D719131C64EE9C00E14EF4 /* Build configuration list for PBXNativeTarget "CircleCI-testApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D719141C64EE9C00E14EF4 /* Debug */,
+				83D719151C64EE9C00E14EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D719161C64EE9C00E14EF4 /* Build configuration list for PBXNativeTarget "CircleCI-testAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D719171C64EE9C00E14EF4 /* Debug */,
+				83D719181C64EE9C00E14EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D719191C64EE9C00E14EF4 /* Build configuration list for PBXNativeTarget "CircleCI-testAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D7191A1C64EE9C00E14EF4 /* Debug */,
+				83D7191B1C64EE9C00E14EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D718E31C64EE9C00E14EF4 /* Project object */;
+}
